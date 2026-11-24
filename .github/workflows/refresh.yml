@@ -2,7 +2,7 @@ name: Refresh Real Academy (3h)
 
 on:
   schedule:
-    - cron: '19 */3 * * *'   # backup a cada 3h (minuto :19 p/ fugir do pico) - best effort
+    - cron: '39 */3 * * *'   # 24/11/2026: org nova scaleagenciaaa, horario proprio (dashes nao rodam juntas)
   workflow_dispatch:          # gatilho confiavel = cron-job.org faz POST aqui
 
 permissions:
