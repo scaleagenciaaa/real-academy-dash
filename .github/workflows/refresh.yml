@@ -2,7 +2,7 @@ name: Refresh Real Academy (3h)
 
 on:
   schedule:
-    - cron: '19,49 * * * *'   # 25/11/2026: a cada 30 min (pedido do cliente), minuto proprio
+    - cron: '19 */3 * * *'   # reserva: o disparo principal e o cron-job.org (30 em 30 min)
   workflow_dispatch:          # gatilho confiavel = cron-job.org faz POST aqui
 
 permissions:
